@@ -6,8 +6,10 @@
 
 A collection of ready-to-deploy [Serverless Framework](https://github.com/serverless/serverless) services.
 
-## Notes for Enkompasss Personnel
-These examples have been put here so that you can try them out and see how they work.  Understanding the Serverless Framework is an integral part of your job as a developer for Enkompass.  You must be a proficient serverless developer in order to succeed as part of the Enkompass team.  We hope these examples will help you become proficient.
+## Notes for Enkompass Personnel
+These examples have been put here so that you can try them out and see how they work.  Understanding the Serverless Framework is an integral part of your job as a developer for Enkompass.  It is one of the most important responsibilities you have here.
+
+The success of Enkompass depends on your success as a developer.  We hope these examples will help you on your journey to become a successful serverless developer. 
 
 If you have trouble understanding these examples or if you are not clear about how to deploy them, please talk to your lead.  If you are not sure who your lead is, talk to the person who hired you and they will be able to point you in the right direction.  
 
