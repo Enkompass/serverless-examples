@@ -20,12 +20,14 @@ If you have trouble understanding these examples or if you are not clear about h
 <details>
 <summary>Click to expand</summary>
 
-- [Getting Started](#getting-started)
-- [Examples](#examples)
-- [Community Examples](#community-examples)
-- [Contributing](#contributing)
-  * [Adding example code](#adding-example-code)
-  * [Adding a community example](#adding-a-community-example)
+- [Serverless Examples](#serverless-examples)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+  - [Examples](#examples)
+  - [Community Examples](#community-examples)
+  - [Contributing](#contributing)
+    - [Adding example code](#adding-example-code)
+    - [Adding a community example](#adding-a-community-example)
 
 </details>
 <!-- AUTO-GENERATED-CONTENT:END -->
@@ -54,6 +56,7 @@ serverless install -u https://github.com/serverless/examples/tree/master/folder-
 | [Aws Golang Auth Examples](https://github.com/serverless/examples/tree/master/aws-golang-auth-examples) <br/> These example shows how to run a Golang lambda with authentication | golang |
 | [Aws Golang Dynamo Stream To Elasticsearch](https://github.com/serverless/examples/tree/master/aws-golang-dynamo-stream-to-elasticsearch) <br/> This example deploys a DynamoDB Table, an Elasticsearch Node, and a lambda triggered off of a Dynamo Stream which updates an elasticsearch index with the data from the Dynamo Table | golang |
 | [Aws Golang Http Get Post](https://github.com/serverless/examples/tree/master/aws-golang-http-get-post) <br/> Example on Making Parameterized Get and Post Request with Golang | golang |
+| [Aws Golang Rest Api With Dynamodb](https://github.com/serverless/examples/tree/master/aws-golang-rest-api-with-dynamodb) <br/> Serverless CRUD service exposing a REST HTTP interface | golang |
 | [Aws Golang Simple Http Endpoint](https://github.com/serverless/examples/tree/master/aws-golang-simple-http-endpoint) <br/> Example demonstrates how to setup a simple HTTP GET endpoint with golang | golang |
 | [Aws Golang Stream Kinesis To Elasticsearch](https://github.com/serverless/examples/tree/master/aws-golang-stream-kinesis-to-elasticsearch) <br/> Pull data from AWS Kinesis streams and forward to elasticsearch | golang |
 | [Aws Alexa Skill](https://github.com/serverless/examples/tree/master/aws-node-alexa-skill) <br/> This example demonstrates how to use an AWS Lambdas for your custom Alexa skill. | nodeJS |
@@ -63,6 +66,8 @@ serverless install -u https://github.com/serverless/examples/tree/master/folder-
 | [Aws Node Dynamodb Backup](https://github.com/serverless/examples/tree/master/aws-node-dynamodb-backup) <br/> Serverless DynamoDB changes backed up to S3 | nodeJS |
 | [Aws Env Variables Encrypted In A File](https://github.com/serverless/examples/tree/master/aws-node-env-variables-encrypted-in-a-file) <br/> Serverless example managing secrets in an encrypted file | nodeJS |
 | [Aws Env Variables](https://github.com/serverless/examples/tree/master/aws-node-env-variables) <br/> This example demonstrates how to use environment variables for AWS Lambdas. | nodeJS |
+| [Aws Node Express Api](https://github.com/serverless/examples/tree/master/aws-node-express-api)  | nodeJS |
+| [Aws Node Express Dynamodb Api](https://github.com/serverless/examples/tree/master/aws-node-express-dynamodb-api)  | nodeJS |
 | [Aws Fetch File And Store In S3](https://github.com/serverless/examples/tree/master/aws-node-fetch-file-and-store-in-s3) <br/> Fetch an image from remote source (URL) and then upload the image to a S3 bucket. | nodeJS |
 | [Sfe Demo Leadcapture](https://github.com/serverless/examples/tree/master/aws-node-fullstack/backend)  | nodeJS |
 | [Frontend](https://github.com/serverless/examples/tree/master/aws-node-fullstack/frontend)  | nodeJS |
@@ -95,6 +100,7 @@ serverless install -u https://github.com/serverless/examples/tree/master/folder-
 | [Aws Node Simple Transcribe S3](https://github.com/serverless/examples/tree/master/aws-node-simple-transcribe-s3) <br/> Example demonstrates how to setup a lambda function to transcribe audio file | nodeJS |
 | [Aws Single Page App Via Cloudfront](https://github.com/serverless/examples/tree/master/aws-node-single-page-app-via-cloudfront) <br/> Demonstrating how to deploy a Single Page Application with Serverless | nodeJS |
 | [Serverless Single Page App Plugin](https://github.com/serverless/examples/tree/master/aws-node-single-page-app-via-cloudfront/serverless-single-page-app-plugin) <br/> A plugin to simplify deploying Single Page Application using S3 and CloudFront | nodeJS |
+| [Aws Node Sqs Worker](https://github.com/serverless/examples/tree/master/aws-node-sqs-worker) <br/> Serverless Framework Node SQS Producer-Consumer on AWS | nodeJS |
 | [Aws Node Stripe Integration](https://github.com/serverless/examples/tree/master/aws-node-stripe-integration) <br/> This example for Stripe integration using AWS Lambda and API Gateway. | nodeJS |
 | [Aws Node Line Echo Bot](https://github.com/serverless/examples/tree/master/aws-node-telegram-echo-bot) <br/> This is a simple echo bot on Telegram | nodeJS |
 | [Aws Text Analysis Via Sns Post Processing](https://github.com/serverless/examples/tree/master/aws-node-text-analysis-via-sns-post-processing) <br/> Example demonstrates how to setup a simple data processing pipeline | nodeJS |
@@ -110,6 +116,8 @@ serverless install -u https://github.com/serverless/examples/tree/master/folder-
 | [Aws Nodejs Websockets Authorizers](https://github.com/serverless/examples/tree/master/aws-node-websockets-authorizers) <br/> Simple example that demonstrates how to use authorizer functions with websocket events | nodeJS |
 | [Aws Alexa Skill](https://github.com/serverless/examples/tree/master/aws-python-alexa-skill) <br/> This example demonstrates how to use an AWS Lambdas for your custom Alexa skill. | python |
 | [Aws Auth0 Api Gateway](https://github.com/serverless/examples/tree/master/aws-python-auth0-custom-authorizers-api) <br/> Demonstration of protecting API gateway endpoints with auth0 | python |
+| [Aws Python Flask Api](https://github.com/serverless/examples/tree/master/aws-python-flask-api) <br/> Example of a Python Flask API service with traditional Serverless Framework | python |
+| [Aws Python Flask Dynamodb Api](https://github.com/serverless/examples/tree/master/aws-python-flask-dynamodb-api) <br/> Example of a Python Flask API service backed by DynamoDB with traditional Serverless Framework | python |
 | [Aws Python Line Echo Bot](https://github.com/serverless/examples/tree/master/aws-python-line-echo-bot) <br/> this is echo bot on LINE message | python |
 | [Aws Python Pynamodb S3 Sigurl](https://github.com/serverless/examples/tree/master/aws-python-pynamodb-s3-sigurl) <br/> Serverless signed uploader REST API using pynamodb, s3 generated events, custom log format, and DRY serverless.yml with custom section | python |
 | [Aws Rest With Dynamodb](https://github.com/serverless/examples/tree/master/aws-python-rest-api-with-dynamodb) <br/> Serverless CRUD service exposing a REST HTTP interface | python |
@@ -118,9 +126,17 @@ serverless install -u https://github.com/serverless/examples/tree/master/folder-
 | [Aws Rest With Pynamodb](https://github.com/serverless/examples/tree/master/aws-python-rest-api-with-pynamodb) <br/> Serverless CRUD service exposing a REST HTTP interface | python |
 | [Aws Scheduled Cron](https://github.com/serverless/examples/tree/master/aws-python-scheduled-cron) <br/> Example of creating a function that runs as a cron job using the serverless `schedule` event | python |
 | [Aws Simple Http Endpoint](https://github.com/serverless/examples/tree/master/aws-python-simple-http-endpoint) <br/> Example demonstrates how to setup a simple HTTP GET endpoint with python | python |
+| [Aws Python Sqs Worker](https://github.com/serverless/examples/tree/master/aws-python-sqs-worker) <br/> Serverless Framework Python SQS Producer-Consumer on AWS | python |
 | [Serverless Telegram Bot](https://github.com/serverless/examples/tree/master/aws-python-telegram-bot) <br/> This example demonstrates how to setup an echo Telegram Bot using the Serverless Framework ⚡🤖  | python |
+| [Serverless Ruby Dynamodb Cron](https://github.com/serverless/examples/tree/master/aws-ruby-cron-with-dynamodb) <br/> This is an example of creating a function that runs as a cron job using the serverless 'schedule' event. With the usage of the AWS Lambda function, it creates a record to the DynamoDB each and every 30 minutes. | ruby |
 | [Aws Ruby Line Bot](https://github.com/serverless/examples/tree/master/aws-ruby-line-bot) <br/> Example demonstrates how to setup a simple Line echo bot on AWS | ruby |
 | [Aws Ruby Simple Http Endpoint](https://github.com/serverless/examples/tree/master/aws-ruby-simple-http-endpoint) <br/> Example demonstrates how to setup a simple HTTP GET endpoint | ruby |
+| [Aws Ruby Sinatra Dynamodb Api](https://github.com/serverless/examples/tree/master/aws-ruby-sinatra-dynamodb-api) <br/> Example of a Ruby Sinatra API service backed by DynamoDB with traditional Serverless Framework | ruby |
+| [Aws Ruby Step Functions Callback](https://github.com/serverless/examples/tree/master/aws-ruby-step-functions-with-callback) <br/> Ruby example that make usage of AWS Step Functions with callback pattern, AWS Lambda, DynamoDB, Amazon Comprehend, API Gateway, and Step Functions flows | ruby |
+| [Serverless Ruby Sqs Dynamodb](https://github.com/serverless/examples/tree/master/aws-ruby-sqs-with-dynamodb) <br/> A serverless ruby example that creates DynamoDB records with the usage of SQS, API Gateway, and AWS Lambda functions. | ruby |
+| [Aws Ruby Step Functions](https://github.com/serverless/examples/tree/master/aws-ruby-step-functions) <br/> Ruby example that make usage of AWS Step Functions with AWS Lambda, DynamoDB and Step Functions flows. | ruby |
+| [Aws Ruby Step Functions Express Workflow](https://github.com/serverless/examples/tree/master/aws-ruby-step-functions-express) <br/> Ruby example that make usage of AWS Step Functions Express Type with AWS Lambda, DynamoDB, Amazon SES, API Gateway, and Step Functions flows | ruby |
+| [Aws Rust Simple Http Endpoint](https://github.com/serverless/examples/tree/master/aws-rust-simple-http-endpoint) <br/> Example demonstrates how to setup a simple HTTP GET endpoint with rust | nodeJS |
 | [Azure Nodejs](https://github.com/serverless/examples/tree/master/azure-node-line-bot) <br/> Azure Functions sample for the Serverless framework | nodeJS |
 | [Azure Node Simple Http Endpoint](https://github.com/serverless/examples/tree/master/azure-node-simple-http-endpoint) <br/> An example of making http endpoints with the Azure Functions Serverless Framework plugin | nodeJS |
 | [Azure Nodejs](https://github.com/serverless/examples/tree/master/azure-node-telegram-bot) <br/> Azure Functions sample for the Serverless framework | nodeJS |
@@ -142,6 +158,7 @@ serverless install -u https://github.com/serverless/examples/tree/master/folder-
 | [Openwhisk Python Simple Http Endpoint](https://github.com/serverless/examples/tree/master/openwhisk-python-simple-http-endpoint) <br/> Example demonstrates how to setup a simple HTTP GET endpoint with OpenWhisk. | python |
 | [Openwhisk Python Simple](https://github.com/serverless/examples/tree/master/openwhisk-python-simple) <br/> Example demonstrates how to setup a simple Python function with OpenWhisk. | python |
 | [Openwhisk Ruby Simple](https://github.com/serverless/examples/tree/master/openwhisk-ruby-simple) <br/> Example demonstrates how to setup a simple Ruby function with OpenWhisk. | ruby |
+| [Openwhisk Rust Simple Http Endpoint](https://github.com/serverless/examples/tree/master/openwhisk-rust-simple-http-endpoint) <br/> Example demonstrates how to setup a simple Rust function with OpenWhisk. | nodeJS |
 | [Openwhisk Swift Package With Precompiled Binaries](https://github.com/serverless/examples/tree/master/openwhisk-swift-precompiled-binaries) <br/> Swift packages and pre-compiled binaries on OpenWhisk. | swift |
 | [Openwhisk Swift Scheduled Cron](https://github.com/serverless/examples/tree/master/openwhisk-swift-scheduled-cron) <br/> Example of creating a Swift function that runs as a cron job using the serverless schedule event. | swift |
 | [Openwhisk Swift Simple Http Endpoint](https://github.com/serverless/examples/tree/master/openwhisk-swift-simple-http-endpoint) <br/> Example demonstrates how to setup a simple HTTP endpoint using Swift function with OpenWhisk. | swift |
@@ -172,12 +189,14 @@ serverless install -u https://github.com/author/project -n my-project
 | **[Commenting Api](https://github.com/AyoubEd/serverless_typescript_graphQl_commentingService)** <br/> A commenting api using Serverless Typescript GraphQl and Redis | [AyoubEd](http://github.com/AyoubEd) |
 | **[Daily Instance Backups With Ami Rotation](https://github.com/AndrewFarley/AWSAutomatedDailyInstanceAMISnapshots)** <br/> A simple Python application which scans through your entire AWS account for tagged instances, makes daily AMIs of them, and rotates their backups automatically | [AndrewFarley](http://github.com/AndrewFarley) |
 | **[Demo Project For Serverless Migrate Plugin](https://github.com/EliuX/serverless-migrate-plugin/tree/master/example)** <br/> An example about how to use migrations in your serverless project with serverless-migrate-plugin | [EliuX](http://github.com/EliuX) |
-| **[Dropbucket   Serverless File Sharing](https://github.com/marksteele/drop-bucket)** <br/> A serverless file sharing app powered by Cognito/S3/Lambda/API Gateway. Includes a React single-page app UI and virus scanning. | [marksteele](http://github.com/marksteele) |
+| **[Express Application With Lambda](https://github.com/HoseungJang/serverless-lambda-express-example)** <br/> This example demonstrates how to build an express application for AWS Lambda based on serverless framework. | [HoseungJang](http://github.com/HoseungJang) |
+| **[File uploads using S3 presigned URLs](https://github.com/marchetti2/aws-node-serverless-upload-presigned-url)** <br/> A Serverless photo upload service with API Gateway, S3 presigned URLs and Lambda. | [marchetti2](https://github.com/marchetti2) |
 | **[Fotopia Serverless](https://github.com/mbudm/fotopia-serverless)** <br/> A photo archive web app including API, storage and face detection using serverless framework | [mbudm](http://github.com/mbudm) |
 | **[Golive](https://github.com/adimoraret/golive/)** <br/> Boilerplate to live stream using AWS MediaLive and MediaStore | [adimoraret](http://github.com/adimoraret) |
 | **[Http Headers Checks](https://github.com/authdog/http-headers-check)** <br/> Serverless Application to check integrity of the headers of a given HTTP server | [authdog](http://github.com/authdog) |
 | **[Json Serverless](https://github.com/pharindoko/json-serverless)** <br/> A simple & cheap serverless REST API using [json-server](https://github.com/typicode/json-server) in combination with AWS Lambda / S3 and the serverless framework | [pharindoko](http://github.com/pharindoko) |
 | **[Lambda Pubsub Via Sns Example](https://github.com/didil/serverless-lambda-sns-example)** <br/> Example illustrating the flow: Lambda (publisher) => SNS => Lambda (consumer) | [didil](http://github.com/didil) |
+| **[Monorepo Typescript microservices](https://github.com/fargito/serverless-monorepo-microservices-template)** <br/> An opinionated Serverless template with several Typescript microservices in a monorepo | [fargito](http://github.com/fargito) |
 | **[Nietzsche](https://github.com/rpidanny/Nietzsche)** <br/> A serverless application that fetches quotes from Goodreads and saves it to DynamoDB with example use cases using `Lambda`, `SNS`, `SQS`, `Step Functions`, `DynamoDB`, `API Gateway`, `CloudWatch` | [rpidanny](http://github.com/rpidanny) |
 | **[Open Bot](https://github.com/open-bot/open-bot)** <br/> An unoptionated Github bot driven by a configuration file in the repository | [open-bot](http://github.com/open-bot) |
 | **[Personal Access Tokens Cron Check](https://github.com/madtrick/cfpat-audit)** <br/> Audit for leaked PAT in your Contentful organization. How to use serverless as cronjobs to keep your Personal Access Tokens secure | [madtrick](http://github.com/madtrick) |
@@ -200,10 +219,12 @@ serverless install -u https://github.com/author/project -n my-project
 | **[Serverless Lambda S3 Demonstration](https://github.com/johncmunson/serverless-lambda-s3)** <br/> This project demonstrates how the Serverless Framework can be used to deploy a NodeJS Lambda function that responds to events in an S3 bucket. | [johncmunson](http://github.com/johncmunson) |
 | **[Serverless Load Balancer](https://github.com/pharindoko/serverless-load-balancer)** <br/> A sample that shows how to combine a load balancer with (vpc/subnet configuration) with a lambda. | [pharindoko](http://github.com/pharindoko) |
 | **[Serverless Next.js Example](https://github.com/kimcoder/serverless-nextjs)** <br/> Next.js example project for development & deploy. | [kimcoder](http://github.com/kimcoder) |
+| **[Serverless Python Twitch Eventsub To Discord Webhook On Aws](https://github.com/dylmye/aws-python-twitch-eventsub-to-discord-webhook)** <br/> This template takes go-live events from Twitch EventSub, and publishes the events through a Discord webhook | [dylmye](http://github.com/dylmye) |
 | **[Serverless Rds Log Sync S3](https://github.com/drocco007/serverless-aws-rds-logs-s3)** <br/> Annotated exmaple of a periodic scheduled task to sync changed RDS log files to an S3 bucket. | [drocco007](http://github.com/drocco007) |
 | **[Serverless Reactjs Universal Rendering Boilerplate](https://github.com/TylorShin/react-universal-in-serverless)** <br/> ReactJS web app Starter kit does universal (isomorphic) rendering with Serverless | [TylorShin](http://github.com/TylorShin) |
 | **[Serverless Sns Sqs Offline Example ](https://github.com/kenyipp/serverless-sns-sqs-offline-example)** <br/> Minimal example of running serverless-offline with SQS and SNS in local environment. | [kenyipp](http://github.com/kenyipp) |
 | **[Serverless Ssh Command](https://github.com/upgle/serverless-openwhisk-ssh)** <br/> Example of executing ssh command with OpenWhisk | [upgle](http://github.com/upgle) |
+| **[Serverless Screenshot To S3](https://github.com/slaytr/aws-node-screenshot-to-s3)** <br/> An example serverless stack which takes a screenshot using aws-chrome-lambda and puts it in s3. NodeJS. | [slaytr](http://github.com/slaytr) |
 | **[Serverless Telegram Bot](https://github.com/jonatasbaldin/serverless-telegram-bot)** <br/> This example demonstrates how to setup an echo Telegram Bot using the Serverless Framework ⚡🤖 | [jonatasbaldin](http://github.com/jonatasbaldin) |
 | **[Serverless Ffmpeg](https://github.com/kvaggelakos/serverless-ffmpeg)** <br/> Bucket event driven FFMPEG using serverless. Input bucket => Serverless ffmpeg => Output bucket. | [kvaggelakos](http://github.com/kvaggelakos) |
 | **[Serverless Sns Api](https://github.com/eddielisc/serverless-sns-api)** <br/> Build a SNS service on AWS, support backend API for SNS by device, by group and by user | [eddielisc](http://github.com/eddielisc) |
@@ -270,6 +291,7 @@ serverless install -u https://github.com/author/project -n my-project
 | **[Sls Form Mail](https://github.com/takahashim/sls-form-mail)** <br/> Send SNS email from form data | [takahashim](http://github.com/takahashim) |
 | **[Vanity Stargazer](https://github.com/silvermullet/vanity-stargazer)** <br/> Github vanity-stargazer is a serverless application to handle posting Github new star gazers to Slack | [silvermullet](http://github.com/silvermullet) |
 | **[Video Preview And Analysis Service](https://github.com/laardee/video-preview-and-analysis-service)** <br/> An event-driven service that generates labels using Amazon Rekognition and creates preview GIF animation from a video file. | [laardee](http://github.com/laardee) |
+| **[Idempotent Serverless Applications Examples](https://github.com/Nsupyq/idempotent-serverless-functions)** <br/> Examples of how to write idempotent serverless functions. | [Nsupyq](https://github.com/Nsupyq) |
 <!-- AUTO-GENERATED-CONTENT:END -->
 
 ## Contributing

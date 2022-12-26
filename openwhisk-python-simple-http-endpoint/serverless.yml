@@ -2,14 +2,14 @@ service: python-service
 
 provider:
   name: openwhisk
-  runtime: python
+  runtime: python:3
 
 functions:
   currentTime:
     handler: handler.endpoint
     events:
       - http:
-          path: ping
+          path: time
           method: get
 
 plugins:

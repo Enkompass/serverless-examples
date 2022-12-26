@@ -5,6 +5,7 @@ layout: Doc
 framework: v1
 platform: AWS
 language: nodeJS
+priority: 10
 authorLink: 'https://github.com/adambrgmn'
 authorName: 'Adam Bergman'
 authorAvatar: 'https://avatars1.githubusercontent.com/u/13746650?v=4&s=140'
@@ -27,7 +28,7 @@ Test your service locally, without having to deploy it first.
 
 ```bash
 npm install
-serverless dynamodb install
+serverless dynamodb install (or to use a persistent docker dynamodb instead, open a new terminal: cd ./dynamodb && docker-compose up -d)
 serverless offline start
 serverless dynamodb migrate (this imports schema)
 ```

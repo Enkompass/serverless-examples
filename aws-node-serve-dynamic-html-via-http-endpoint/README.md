@@ -5,6 +5,7 @@ layout: Doc
 framework: v1
 platform: AWS
 language: nodeJS
+priority: 10
 authorLink: 'https://github.com/slate71'
 authorName: 'Lukas Andersen'
 authorAvatar: 'https://avatars0.githubusercontent.com/u/2078561?v=4&s=140'
@@ -88,7 +89,7 @@ The expected result should be similar to:
     <h1>Landing Page</h1>
     <p>Hey Nik Graf!</p>
   </body>
-</html>%
+</html>
 ```
 
 Of course you can visit the URL in your browser and this is how it should look like:

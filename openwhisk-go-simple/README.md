@@ -5,6 +5,7 @@ layout: Doc
 framework: v1
 platform: OpenWhisk
 language: Go
+priority: 10
 authorLink: 'https://github.com/jthomas'
 authorName: 'James Thomas'
 authorAvatar: 'https://avatars2.githubusercontent.com/u/2322?v=4&s=140'
@@ -21,7 +22,7 @@ You will also need to set up your OpenWhisk account credentials using environmen
 ## 2. Compile Go Binary
 
 ```
-$ env GOOS=linux GOARCH=amd64 go build handler.go
+$ env CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -ldflags '-s -w -extldflags "-static"' handler.go
 ```
 
 ## 3. Deploy
